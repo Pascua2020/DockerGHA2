@@ -184,6 +184,17 @@ Este proyecto no tiene licencia asignada. Al no contar con una licencia explíci
 - Pascua2020 (https://github.com/Pascua2020)
 - UTN
 
+📒**Documentación Oficial:**
+
+*Docker:*
+https://docs.docker.com
+
+*Github Actions:*
+https://docs.github.com/es/actions
+
+*Dokku:*
+https://dokku.com/docs/getting-started/installation/
+
 🔄 **Notas**
 
 *Consideraciones de seguridad*
