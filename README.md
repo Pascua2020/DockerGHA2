@@ -10,13 +10,13 @@
 
 🟥 **Características**
 
-⚡️ Docker: Empaqueta la aplicación Spring Boot en un contenedor para garantizar que se ejecute de la misma manera en cualquier entorno.
+⚡️ *Docker:* Empaqueta la aplicación Spring Boot en un contenedor para garantizar que se ejecute de la misma manera en cualquier entorno.
 
-⚡️ GitHub Actions: Automatiza el proceso de construcción, prueba y despliegue de la aplicación con cada cambio en el repositorio.
+⚡️ *GitHub Actions:* Automatiza el proceso de construcción, prueba y despliegue de la aplicación con cada cambio en el repositorio.
 
-⚡️ Java Spring Boot: Framework backend para el desarrollo de la aplicación web.
+⚡️ *Java Spring Boot:* Framework backend para el desarrollo de la aplicación web.
 
-⚡️ Dokku: Plataforma de despliegue similar a Heroku que usa contenedores Docker para gestionar aplicaciones de forma sencilla.
+⚡️ *Dokku:* Plataforma de despliegue similar a Heroku que usa contenedores Docker para gestionar aplicaciones de forma sencilla.
 
 🟧 **Estructura del Proyecto**
 ```
