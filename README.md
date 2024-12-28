@@ -188,18 +188,18 @@ Este proyecto no tiene licencia asignada. Al no contar con una licencia explíci
 
 *Consideraciones de seguridad*
 
--Este proyecto utiliza variables secretas (DOCKER_USERNAME, DOCKER_PASSWORD, GITHUB_TOKEN).
+- Este proyecto utiliza variables secretas (DOCKER_USERNAME, DOCKER_PASSWORD, GITHUB_TOKEN).
 
--Asegúrate de configurar los secretos en la sección "Settings > Secrets and Variables > Actions" de tu repositorio.
+- Asegúrate de configurar los secretos en la sección "Settings > Secrets and Variables > Actions" de tu repositorio.
 
 *Límites del proyecto*
 
--Este proyecto no incluye configuraciones avanzadas de orquestación como Kubernetes.
+- Este proyecto no incluye configuraciones avanzadas de orquestación como Kubernetes.
 
--Está diseñado para despliegues simples en entornos compatibles con Docker.
+- Está diseñado para despliegues simples en entornos compatibles con Docker.
 
 *Notas adicionales*
 
--Este proyecto es un ejemplo educativo.
+- Este proyecto es un ejemplo educativo.
 
--No se recomienda utilizarlo en entornos de producción sin realizar ajustes específicos.
+- No se recomienda utilizarlo en entornos de producción sin realizar ajustes específicos.
