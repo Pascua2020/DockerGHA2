@@ -138,13 +138,13 @@ Ejecuta el proceso en un entorno con Ubuntu (ubuntu-latest).
 
 📀 3. Pasos del Job:
 
-✨️Check out the repo: Descarga el código fuente del repositorio.
+✨️ Check out the repo: Descarga el código fuente del repositorio.
 
-✨️Log in to Docker Hub: Inicia sesión en Docker Hub usando las credenciales seguras (DOCKER_USERNAME y DOCKER_PASSWORD) almacenadas en los secretos del repositorio.
+✨️ Log in to Docker Hub: Inicia sesión en Docker Hub usando las credenciales seguras (DOCKER_USERNAME y DOCKER_PASSWORD) almacenadas en los secretos del repositorio.
 
-✨️Extract metadata: Genera etiquetas (tags) y etiquetas adicionales (labels) para la imagen de Docker con base en los datos del repositorio.
+✨️ Extract metadata: Genera etiquetas (tags) y etiquetas adicionales (labels) para la imagen de Docker con base en los datos del repositorio.
 
-✨️Build and push Docker image: Construye la imagen Docker usando el Dockerfile en el directorio raíz y la sube a Docker Hub bajo el repositorio gonzaloescudero/my-docker-hub-repository. Utiliza las etiquetas y etiquetas adicionales generadas en el paso anterior.
+✨️ Build and push Docker image: Construye la imagen Docker usando el Dockerfile en el directorio raíz y la sube a Docker Hub bajo el repositorio gonzaloescudero/my-docker-hub-repository. Utiliza las etiquetas y etiquetas adicionales generadas en el paso anterior.
 
 Propósito:
 
