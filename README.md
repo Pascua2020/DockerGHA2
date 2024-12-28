@@ -13,7 +13,7 @@ Java Spring Boot: Framework backend para el desarrollo de la aplicación web.
 Dokku: Plataforma de despliegue similar a Heroku que usa contenedores Docker para gestionar aplicaciones de forma sencilla.
 
 🟧 Estructura del Proyecto
-
+```
 DockerGHA2/
 │
 ├── .github/
@@ -31,6 +31,7 @@ DockerGHA2/
 ├── target/                       # Directorio de build (generado por Maven/Gradle)
 ├── pom.xml                       # Archivo de configuración de Maven (si usas Maven)
 └── .gitignore                    # Archivos y directorios que Git debe ignorar
+```
 Dockerfile: Archivo que define cómo crear la imagen Docker para el proyecto Spring Boot.
 
 main.yml: Archivo de configuración para GitHub Actions que automatiza la construcción, pruebas y despliegue.
