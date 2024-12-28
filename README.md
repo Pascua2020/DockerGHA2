@@ -37,3 +37,25 @@ GitHub Actions: Se utiliza para la integración continua y automatización de pr
 Dokku: Necesitas un servidor remoto con Dokku instalado para gestionar el despliegue.
 
 Java: Debes tener instalado Java y Maven para desarrollar la aplicación de backend con Spring Boot.
+
+```
+Estructura del Proyecto
+
+DockerGHA/
+│
+├── .github/
+│   └── workflows/
+│       └── main.yml             # Flujo de trabajo de GitHub Actions
+├── Dockerfile                   # Dockerfile para contenerizar la app
+├── README.md                    # Documentación del proyecto
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └──  DominioApplication.java   # Clase principal de Spring Boot
+│   │   └── resources/
+│   │       └── application.properties         # Configuración de la app
+├── target/                       # Directorio de build (generado por Maven/Gradle)
+├── pom.xml                       # Archivo de configuración de Maven (si usas Maven)
+└── .gitignore                    # Archivos y directorios que Git debe ignorar
+```
