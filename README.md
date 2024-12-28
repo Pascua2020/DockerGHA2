@@ -134,15 +134,15 @@ jobs:
 ```
 Este archivo main.yml configura un flujo de trabajo en GitHub Actions para construir y publicar una imagen Docker en Docker Hub cuando se realiza un push a la rama main.
 
-📀 1. Trigger (Disparador):
+📀 *1. Trigger (Disparador):*
 
 Se ejecuta automáticamente cuando hay un push en la rama main.
 
-📀 2. Job (push_to_registry):
+📀 *2. Job (push_to_registry):*
 
 Ejecuta el proceso en un entorno con Ubuntu (ubuntu-latest).
 
-📀 3. Pasos del Job:
+📀 *3. Pasos del Job:*
 
 ✨️ Check out the repo: Descarga el código fuente del repositorio.
 
