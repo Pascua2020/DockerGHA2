@@ -184,16 +184,18 @@ Este proyecto no tiene licencia asignada. Al no contar con una licencia explíci
 - Pascua2020 (https://github.com/Pascua2020)
 - UTN
 
-🔄 Notas
+🔄 **Notas**
 
-Consideraciones de seguridad
+*Consideraciones de seguridad*
 
-Este proyecto utiliza variables secretas (DOCKER_USERNAME, DOCKER_PASSWORD, GITHUB_TOKEN).
-Asegúrate de configurar los secretos en la sección "Settings > Secrets and Variables > Actions" de tu repositorio.
-Límites del proyecto
+-Este proyecto utiliza variables secretas (DOCKER_USERNAME, DOCKER_PASSWORD, GITHUB_TOKEN).
+-Asegúrate de configurar los secretos en la sección "Settings > Secrets and Variables > Actions" de tu repositorio.
 
-Este proyecto no incluye configuraciones avanzadas de orquestación como Kubernetes.
-Está diseñado para despliegues simples en entornos compatibles con Docker.
-Notas adicionales
+*Límites del proyecto*
 
-Este proyecto es un ejemplo educativo. No se recomienda utilizarlo en entornos de producción sin realizar ajustes específicos.
+-Este proyecto no incluye configuraciones avanzadas de orquestación como Kubernetes.
+-Está diseñado para despliegues simples en entornos compatibles con Docker.
+
+*Notas adicionales*
+
+-Este proyecto es un ejemplo educativo. -No se recomienda utilizarlo en entornos de producción sin realizar ajustes específicos.
