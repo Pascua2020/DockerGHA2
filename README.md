@@ -79,17 +79,17 @@ ENTRYPOINT /app/run.sh
 
 Este Dockerfile crea una imagen Docker que ejecuta un script en un bucle infinito para mostrar la hora actual.
 
-📀 1. Base: Usa la imagen mínima busybox:latest.
+📀 *1. Base:* Usa la imagen mínima busybox:latest.
 
-📀 2. Script: Crea un archivo run.sh dentro del contenedor que:
+📀 *2. Script:* Crea un archivo run.sh dentro del contenedor que:
 
 Muestra la hora actual (HH:MM:SS) en tiempo real.
 
 Actualiza la hora en la misma línea cada segundo.
 
-📀 3. Permisos: El script tiene permisos de ejecución (chmod=755).
+📀 *3. Permisos:* El script tiene permisos de ejecución (chmod=755).
 
-📀 4. Ejecución: Configura el script como punto de entrada (ENTRYPOINT).
+📀 *4. Ejecución:* Configura el script como punto de entrada (ENTRYPOINT).
 
 Función:
 
