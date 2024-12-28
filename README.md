@@ -41,7 +41,7 @@ Java: Debes tener instalado Java y Maven para desarrollar la aplicación de back
 ```
 Estructura del Proyecto
 
-DockerGHA/
+DockerGHA2/
 │
 ├── .github/
 │   └── workflows/
