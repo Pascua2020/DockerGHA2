@@ -61,3 +61,8 @@ Java: Debes tener instalado Java y Maven para desarrollar la aplicación de back
 🟪 Licencia  
 
 Este proyecto no tiene licencia asignada. Al no contar con una licencia explícita, se considera que todos los derechos están reservados. Si deseas usar este proyecto, por favor, contáctame.
+
+🟫 Autores
+
+- Pascua2020 (https://github.com/Pascua2020)
+- UTN
