@@ -59,4 +59,5 @@ Java: Debes tener instalado Java y Maven para desarrollar la aplicación de back
     ☑️ Terminado.
 
 🟪 Licencia  
+
 Este proyecto no tiene licencia asignada. Al no contar con una licencia explícita, se considera que todos los derechos están reservados. Si deseas usar este proyecto, por favor, contáctame.
