@@ -44,7 +44,7 @@ DockerGHA2/
 
 🟨 Instalación
 
-Requisitos
+ 🖱 Requisitos
 
 ℹ️ Docker: Necesario para construir y ejecutar la aplicación en contenedores.
 
