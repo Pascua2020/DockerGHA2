@@ -42,7 +42,7 @@ pom.xml: Archivo de configuración de Maven para las dependencias y construcció
 
 dokku-deploy.sh: Script que automatiza el proceso de despliegue de la aplicación en un servidor remoto usando Dokku.
 
-🟨Instalación
+🟨 Instalación
 
 Requisitos
 
