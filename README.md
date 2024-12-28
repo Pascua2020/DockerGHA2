@@ -160,6 +160,11 @@ Automatizar el proceso de construcción y publicación de imágenes Docker en Do
 
     ☑️ Terminado.
 
+👤 Colaboración
+
+Este proyecto es de uso personal y no está abierto a colaboraciones externas.  
+Sin embargo, si encuentras algo interesante o tienes alguna pregunta, ¡estaré encantado de escuchar! Puedes contactarme en mi perfil de Github.
+
 🟪 Licencia  
 
 Este proyecto no tiene licencia asignada. Al no contar con una licencia explícita, se considera que todos los derechos están reservados. Si deseas usar este proyecto, por favor, contáctame.
