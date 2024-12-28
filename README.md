@@ -107,17 +107,25 @@ ENTRYPOINT /app/run.sh
 
 Este Dockerfile crea una imagen Docker que ejecuta un script en un bucle infinito para mostrar la hora actual.
 
-📀 *1. Base:* Usa la imagen mínima busybox:latest.
+📀 *1. Base:* 
 
-📀 *2. Script:* Crea un archivo run.sh dentro del contenedor que:
+Usa la imagen mínima busybox:latest.
+
+📀 *2. Script:* 
+
+Crea un archivo run.sh dentro del contenedor que:
 
 Muestra la hora actual (HH:MM:SS) en tiempo real.
 
 Actualiza la hora en la misma línea cada segundo.
 
-📀 *3. Permisos:* El script tiene permisos de ejecución (chmod=755).
+📀 *3. Permisos:* 
 
-📀 *4. Ejecución:* Configura el script como punto de entrada (ENTRYPOINT).
+El script tiene permisos de ejecución (chmod=755).
+
+📀 *4. Ejecución:* 
+
+Configura el script como punto de entrada (ENTRYPOINT).
 
 Función:
 
@@ -172,13 +180,21 @@ Ejecuta el proceso en un entorno con Ubuntu (ubuntu-latest).
 
 📀 *3. Pasos del Job:*
 
-✨️ Check out the repo: Descarga el código fuente del repositorio.
+✨️ Check out the repo: 
 
-✨️ Log in to Docker Hub: Inicia sesión en Docker Hub usando las credenciales seguras (DOCKER_USERNAME y DOCKER_PASSWORD) almacenadas en los secretos del repositorio.
+Descarga el código fuente del repositorio.
 
-✨️ Extract metadata: Genera etiquetas (tags) y etiquetas adicionales (labels) para la imagen de Docker con base en los datos del repositorio.
+✨️ Log in to Docker Hub: 
 
-✨️ Build and push Docker image: Construye la imagen Docker usando el Dockerfile en el directorio raíz y la sube a Docker Hub bajo el repositorio gonzaloescudero/my-docker-hub-repository. Utiliza las etiquetas y etiquetas adicionales generadas en el paso anterior.
+Inicia sesión en Docker Hub usando las credenciales seguras (DOCKER_USERNAME y DOCKER_PASSWORD) almacenadas en los secretos del repositorio.
+
+✨️ Extract metadata: 
+
+Genera etiquetas (tags) y etiquetas adicionales (labels) para la imagen de Docker con base en los datos del repositorio.
+
+✨️ Build and push Docker image:
+
+Construye la imagen Docker usando el Dockerfile en el directorio raíz y la sube a Docker Hub bajo el repositorio gonzaloescudero/my-docker-hub-repository. Utiliza las etiquetas y etiquetas adicionales generadas en el paso anterior.
 
 Propósito:
 
