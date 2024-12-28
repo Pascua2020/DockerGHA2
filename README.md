@@ -72,13 +72,21 @@ Script que automatiza el proceso de despliegue de la aplicación en un servidor 
 
  🖱 Requisitos
 
-ℹ️ *Docker:* Necesario para construir y ejecutar la aplicación en contenedores.
+ℹ️ *Docker:* 
 
-ℹ️ *GitHub Actions:* Se utiliza para la integración continua y automatización de procesos de despliegue.
+Necesario para construir y ejecutar la aplicación en contenedores.
 
-ℹ️ *Dokku:* Necesitas un servidor remoto con Dokku instalado para gestionar el despliegue.
+ℹ️ *GitHub Actions:* 
 
-ℹ️ *Java:* Debes tener instalado Java y Maven para desarrollar la aplicación de backend con Spring Boot.
+Se utiliza para la integración continua y automatización de procesos de despliegue.
+
+ℹ️ *Dokku:* 
+
+Necesitas un servidor remoto con Dokku instalado para gestionar el despliegue.
+
+ℹ️ *Java:* 
+
+Debes tener instalado Java y Maven para desarrollar la aplicación de backend con Spring Boot.
 
 ⬜️ **Código**
 
