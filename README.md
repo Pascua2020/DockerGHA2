@@ -46,13 +46,13 @@ DockerGHA2/
 
 Requisitos
 
-Docker: Necesario para construir y ejecutar la aplicación en contenedores.
+ℹ️Docker: Necesario para construir y ejecutar la aplicación en contenedores.
 
-GitHub Actions: Se utiliza para la integración continua y automatización de procesos de despliegue.
+ℹ️GitHub Actions: Se utiliza para la integración continua y automatización de procesos de despliegue.
 
-Dokku: Necesitas un servidor remoto con Dokku instalado para gestionar el despliegue.
+ℹ️Dokku: Necesitas un servidor remoto con Dokku instalado para gestionar el despliegue.
 
-Java: Debes tener instalado Java y Maven para desarrollar la aplicación de backend con Spring Boot.
+ℹ️Java: Debes tener instalado Java y Maven para desarrollar la aplicación de backend con Spring Boot.
 
 ⬜️ Código
 
