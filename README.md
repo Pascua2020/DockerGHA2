@@ -55,6 +55,7 @@ Dokku: Necesitas un servidor remoto con Dokku instalado para gestionar el despli
 Java: Debes tener instalado Java y Maven para desarrollar la aplicación de backend con Spring Boot.
 
 ⬜️ Código
+
 Dockerfile
 ```
 # syntax=docker/dockerfile:1
