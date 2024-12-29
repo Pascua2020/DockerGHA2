@@ -214,7 +214,7 @@ Genera etiquetas (tags) y etiquetas adicionales (labels) para la imagen de Docke
 
 Construye la imagen Docker usando el Dockerfile en el directorio raíz y la sube a Docker Hub bajo el repositorio gonzaloescudero/my-docker-hub-repository. Utiliza las etiquetas y etiquetas adicionales generadas en el paso anterior.
 
-Propósito:
+🔑 Propósito:
 
 Automatizar el proceso de construcción y publicación de imágenes Docker en Docker Hub, asegurando que cada cambio en la rama principal se refleje con una nueva imagen en el registro.
 
