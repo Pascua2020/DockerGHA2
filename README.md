@@ -12,7 +12,7 @@
 
 ```
 
-1️⃣🟥 **Características**
+## 1️⃣🟥 **Características**
 
 ⚡️ *Docker:* 
 
@@ -38,7 +38,7 @@ Framework backend para el desarrollo de la aplicación web.
 
 Plataforma de despliegue similar a Heroku que usa contenedores Docker para gestionar aplicaciones de forma sencilla.
 
-2️⃣🟧 **Estructura del Proyecto**
+## 2️⃣🟧 **Estructura del Proyecto**
 ```
 DockerGHA2/
 │
@@ -78,7 +78,7 @@ Archivo de configuración de Maven para las dependencias y construcción del pro
 
 Script que automatiza el proceso de despliegue de la aplicación en un servidor remoto usando Dokku.
 
-3️⃣🟨 **Instalación**
+## 3️⃣🟨 **Instalación**
 
  🖱 Requisitos
 
@@ -98,7 +98,7 @@ Necesitas un servidor remoto con Dokku instalado para gestionar el despliegue.
 
 Debes tener instalado Java y Maven para desarrollar la aplicación de backend con Spring Boot.
 
-4️⃣⬜️ **Código**
+## 4️⃣⬜️ **Código**
 
 💡 Dockerfile
 ```
@@ -210,25 +210,25 @@ Propósito:
 
 Automatizar el proceso de construcción y publicación de imágenes Docker en Docker Hub, asegurando que cada cambio en la rama principal se refleje con una nueva imagen en el registro.
 
-5️⃣🟦 **Estado del Proyecto**
+## 5️⃣🟦 **Estado del Proyecto**
 
     ☑️ Terminado.
 
-6️⃣👤 **Colaboración**
+## 6️⃣👤 **Colaboración**
 
 Este proyecto es de uso personal y no está abierto a colaboraciones externas.  
 Sin embargo, si encuentras algo interesante o tienes alguna pregunta, ¡estaré encantado de escuchar! Puedes contactarme en mi perfil de Github.
 
-7️⃣🟪 **Licencia**
+## 7️⃣🟪 **Licencia**
 
 Este proyecto no tiene licencia asignada. Al no contar con una licencia explícita, se considera que todos los derechos están reservados. Si deseas usar este proyecto, por favor, contáctame.
 
-8️⃣🟫 **Autores**
+## 8️⃣🟫 **Autores**
 
 - Pascua2020 (https://github.com/Pascua2020)
 - UTN
 
-9️⃣📒**Documentación Oficial:**
+## 9️⃣📒**Documentación Oficial:**
 
 *Docker:*
 https://docs.docker.com
@@ -239,7 +239,7 @@ https://docs.github.com/es/actions
 *Dokku:*
 https://dokku.com/docs/getting-started/installation/
 
-🔟🔄 **Notas**
+## 🔟🔄 **Notas**
 
 *Consideraciones de seguridad*
 
