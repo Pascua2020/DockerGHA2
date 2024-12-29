@@ -156,7 +156,7 @@ Automate deployment processes via Dokku.
 
 💡Nginx: Used as a reverse proxy for the application to enhance performance and security.
 
-# ⬜️ Code
+## ⬜️ Code
 
 💡 *Dockerfile*
 ```
