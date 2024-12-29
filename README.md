@@ -52,7 +52,7 @@ Plataforma de despliegue similar a Heroku que usa contenedores Docker para gesti
 
 **Diferencias entre DockerGHA 2 con 1 , 3 y 4 :**
 
-*Todos los Dockerfiles son idénticos:*
+⚙️ *Todos los Dockerfiles son idénticos:*
 
 - Usan la imagen base busybox:latest.
 
@@ -60,7 +60,7 @@ Plataforma de despliegue similar a Heroku que usa contenedores Docker para gesti
 
 - Configuran el script run.sh como el punto de entrada del contenedor.
 
-*Main.yml - Diferencias generales*:
+⚙️ *Main.yml - Diferencias generales*:
 
 🔷️ 1. Repositorios:
 
