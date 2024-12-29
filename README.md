@@ -46,9 +46,9 @@ Framework backend para el desarrollo de la aplicación web.
 
 Plataforma de despliegue similar a Heroku que usa contenedores Docker para gestionar aplicaciones de forma sencilla.
 
-**Diferencias entre DockerGHA 2 con 1 , 3 y 4 :**
+**Diferencias entre DockerGHA 1 con 2 , 3 y 4 :**
 
-Todos los Dockerfiles son idénticos:
+*Todos los Dockerfiles son idénticos:*
 
 - Usan la imagen base busybox:latest.
 
@@ -56,6 +56,25 @@ Todos los Dockerfiles son idénticos:
 
 - Configuran el script run.sh como el punto de entrada del contenedor.
 
+*Main.yml - Diferencias generales*:
+
+1. Repositorios:
+
+- 1 y 2 suben imágenes solo a Docker Hub.
+
+- 3 sube solo a GHCR.
+
+- 4 sube a ambos registries (Docker Hub y GHCR).
+
+2. Automatización:
+
+- Repositorios 2, 3 y 4 usan docker/metadata-action para etiquetas automáticas, mientras que el 1 no.
+
+3. Nombres de imagen:
+
+- Repositorio 1 tiene un nombre fijo: clockbox:latest.
+
+- Los demás repositorios usan configuraciones dinámicas o específicas
 ## 2️⃣🟧 **Estructura del Proyecto**
 ```
 DockerGHA2/
