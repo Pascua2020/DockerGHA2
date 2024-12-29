@@ -145,7 +145,7 @@ El script tiene permisos de ejecución (chmod=755).
 
 Configura el script como punto de entrada (ENTRYPOINT).
 
-Función:
+🔑 Función:
 
 Cuando se ejecuta el contenedor, muestra continuamente la hora actual en la terminal.
 
