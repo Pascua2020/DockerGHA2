@@ -1,3 +1,5 @@
+##### Hashtags #️⃣ : #devops #docker #linux #automation #ci #github-actions #dokku #java-springboot #nginx #####
+
 # ✅️ **DockerGHA2** 
 
 ![DevOps Logo](https://globalittrainers.com/wp-content/uploads/2021/06/Devops-logo1.png)
