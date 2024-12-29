@@ -62,7 +62,7 @@ Plataforma de despliegue similar a Heroku que usa contenedores Docker para gesti
 
 *Main.yml - Diferencias generales*:
 
-1. Repositorios:
+🔷️ 1. Repositorios:
 
 - 1 y 2 suben imágenes solo a Docker Hub.
 
@@ -70,11 +70,11 @@ Plataforma de despliegue similar a Heroku que usa contenedores Docker para gesti
 
 - 4 sube a ambos registries (Docker Hub y GHCR).
 
-2. Automatización:
+🔷️ 2. Automatización:
 
 - Repositorios 2, 3 y 4 usan docker/metadata-action para etiquetas automáticas, mientras que el 1 no.
 
-3. Nombres de imagen:
+🔷️ 3. Nombres de imagen:
 
 - Repositorio 1 tiene un nombre fijo: clockbox:latest.
 
