@@ -88,7 +88,7 @@ Script que automatiza el proceso de despliegue de la aplicación en un servidor 
 
 ## 3️⃣🟨 **Instalación**
 
- 🖱 Requisitos
+ 🖱 *Requisitos*
 
 ℹ️ *Docker:* 
 
@@ -108,7 +108,7 @@ Debes tener instalado Java y Maven para desarrollar la aplicación de backend co
 
 ## 4️⃣⬜️ **Código**
 
-💡 Dockerfile
+💡 *Dockerfile*
 ```
 # syntax=docker/dockerfile:1
 FROM busybox:latest
@@ -149,7 +149,7 @@ Función:
 
 Cuando se ejecuta el contenedor, muestra continuamente la hora actual en la terminal.
 
-💡 Main.yml
+💡 *Main.yml*
 ```
 name: Publish Docker image
 
