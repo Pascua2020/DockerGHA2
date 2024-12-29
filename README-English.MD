@@ -84,7 +84,7 @@ A Heroku-like deployment platform that uses Docker containers to manage applicat
 
 ## 2️⃣🟧 Project Structure
 ```
-DockerGHA/
+DockerGHA2/
 │
 ├── .github/
 │   └── workflows/
