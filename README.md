@@ -282,19 +282,19 @@ https://dokku.com/docs/getting-started/installation/
 
 ## 🔟🔄 **Notas**
 
-*Consideraciones de seguridad*
+🍪 *Consideraciones de seguridad*
 
 - Este proyecto utiliza variables secretas (DOCKER_USERNAME, DOCKER_PASSWORD, GITHUB_TOKEN).
 
 - Asegúrate de configurar los secretos en la sección "Settings > Secrets and Variables > Actions" de tu repositorio.
 
-*Límites del proyecto*
+🍪 *Límites del proyecto*
 
 - Este proyecto no incluye configuraciones avanzadas de orquestación como Kubernetes.
 
 - Está diseñado para despliegues simples en entornos compatibles con Docker.
 
-*Notas adicionales*
+🍪 *Notas adicionales*
 
 - Este proyecto es un ejemplo educativo.
 
