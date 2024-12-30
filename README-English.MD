@@ -203,7 +203,7 @@ Sets executable permissions (chmod=755) for the run.sh script.
 
 Defines /app/run.sh as the entry point, making it the default command executed when the container starts.
 
-Purpose:
+🔑 Purpose:
 
 When the container runs, it continuously prints the current time in real-time, updating it every second on the same terminal line.
 
@@ -290,7 +290,7 @@ Push the image to the specified Docker Hub repository (gonzaloescudero/my-docker
 
 It uses the metadata (tags and labels) from the previous step to annotate the image.
 
-Purpose:
+🔑 Purpose:
 
 This workflow ensures that every change pushed to the main branch is automatically reflected as a new Docker image version in Docker Hub, complete with relevant tags and labels. It simplifies and streamlines the CI/CD process for Docker-based applications.
 
