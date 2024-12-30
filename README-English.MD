@@ -177,11 +177,11 @@ ENTRYPOINT /app/run.sh
 
 This Dockerfile creates a lightweight container that continuously outputs the current time in a specific format.
 
-🔷️1. Base Image:
+🔷️ 1. Base Image:
 
 Uses the latest version of the busybox image, a minimal Linux distribution with essential utilities.
 
-🔷️2. Create and Copy a Shell Script:
+🔷️ 2. Create and Copy a Shell Script:
 
 Creates a shell script (run.sh) on the fly using a here-document (<<EOF ... EOF) and copies it to the /app/ directory inside the container.
 
@@ -195,11 +195,11 @@ Overwrites the same line in the terminal (echo -ne "..." with \\r to stay on the
 
 Waits for 1 second before repeating (sleep 1).
 
-🔷️3. Set File Permissions:
+🔷️ 3. Set File Permissions:
 
 Sets executable permissions (chmod=755) for the run.sh script.
 
-🔷️4. Entry Point:
+🔷️ 4. Entry Point:
 
 Defines /app/run.sh as the entry point, making it the default command executed when the container starts.
 
@@ -246,15 +246,15 @@ jobs:
 ```
 This GitHub Actions workflow is designed to automate the process of building and publishing a Docker image to Docker Hub when changes are pushed to the main branch.
 
-🔷️Workflow Name:
+🔷️ Workflow Name:
 
 Publish Docker image
 
-🔷️Trigger:
+🔷️ Trigger:
 
 Runs when there is a push to the main branch.
 
-🔷️Job:
+🔷️ Job:
 
 push_to_registry
 
@@ -262,7 +262,7 @@ Purpose: Builds a Docker image from the repository and pushes it to Docker Hub.
 
 Runs-on: The job runs on the latest version of Ubuntu (ubuntu-latest).
 
-🔷️Steps:
+🔷️ Steps:
 
 1. Check Out the Repository:
 
