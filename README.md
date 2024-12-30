@@ -158,11 +158,11 @@ ENTRYPOINT /app/run.sh
 
 Este Dockerfile crea una imagen Docker que ejecuta un script en un bucle infinito para mostrar la hora actual.
 
-📀 *1. Base:* 
+📀 *1. Base :* 
 
 Usa la imagen mínima busybox:latest.
 
-📀 *2. Script:* 
+📀 *2. Script :* 
 
 Crea un archivo run.sh dentro del contenedor que:
 
@@ -170,15 +170,15 @@ Muestra la hora actual (HH:MM:SS) en tiempo real.
 
 Actualiza la hora en la misma línea cada segundo.
 
-📀 *3. Permisos:* 
+📀 *3. Permisos :* 
 
 El script tiene permisos de ejecución (chmod=755).
 
-📀 *4. Ejecución:* 
+📀 *4. Ejecución :* 
 
 Configura el script como punto de entrada (ENTRYPOINT).
 
-🔑 Función:
+🔑 Función :
 
 Cuando se ejecuta el contenedor, muestra continuamente la hora actual en la terminal.
 
@@ -221,33 +221,33 @@ jobs:
 ```
 Este archivo main.yml configura un flujo de trabajo en GitHub Actions para construir y publicar una imagen Docker en Docker Hub cuando se realiza un push a la rama main.
 
-📀 *1. Trigger (Disparador):*
+📀 *1. Trigger (Disparador) :*
 
 Se ejecuta automáticamente cuando hay un push en la rama main.
 
-📀 *2. Job (push_to_registry):*
+📀 *2. Job (push_to_registry) :*
 
 Ejecuta el proceso en un entorno con Ubuntu (ubuntu-latest).
 
-📀 *3. Pasos del Job:*
+📀 *3. Pasos del Job :*
 
-✨️ *Check out the repo:*
+✨️ *Check out the repo :*
 
 Descarga el código fuente del repositorio.
 
-✨️ *Log in to Docker Hub:*
+✨️ *Log in to Docker Hub :*
 
 Inicia sesión en Docker Hub usando las credenciales seguras (DOCKER_USERNAME y DOCKER_PASSWORD) almacenadas en los secretos del repositorio.
 
-✨️ *Extract metadata:*
+✨️ *Extract metadata :*
 
 Genera etiquetas (tags) y etiquetas adicionales (labels) para la imagen de Docker con base en los datos del repositorio.
 
-✨️ *Build and push Docker image:*
+✨️ *Build and push Docker image :*
 
 Construye la imagen Docker usando el Dockerfile en el directorio raíz y la sube a Docker Hub bajo el repositorio gonzaloescudero/my-docker-hub-repository. Utiliza las etiquetas y etiquetas adicionales generadas en el paso anterior.
 
-🔑 Propósito:
+🔑 Propósito :
 
 Automatizar el proceso de construcción y publicación de imágenes Docker en Docker Hub, asegurando que cada cambio en la rama principal se refleje con una nueva imagen en el registro.
 
@@ -269,15 +269,15 @@ Este proyecto no tiene licencia asignada. Al no contar con una licencia explíci
 - Pascua2020 (https://github.com/Pascua2020)
 - UTN
 
-## 9️⃣📒**Documentación Oficial:**
+## 9️⃣📒**Documentación Oficial :**
 
-*Docker:*
+*Docker :*
 https://docs.docker.com
 
-*Github Actions:*
+*Github Actions :*
 https://docs.github.com/es/actions
 
-*Dokku:*
+*Dokku :*
 https://dokku.com/docs/getting-started/installation/
 
 ## 🔟🔄 **Notas**
