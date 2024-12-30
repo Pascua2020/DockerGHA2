@@ -264,23 +264,23 @@ Runs-on: The job runs on the latest version of Ubuntu (ubuntu-latest).
 
 🔷️ Steps:
 
-1. Check Out the Repository:
+▫️ 1. Check Out the Repository:
 
 Uses the actions/checkout action to clone the repository code into the runner environment.
 
-2. Log In to Docker Hub:
+▫️ 2. Log In to Docker Hub:
 
 Uses the docker/login-action to authenticate with Docker Hub.
 
 Credentials are securely retrieved using GitHub secrets (DOCKER_USERNAME and DOCKER_PASSWORD).
 
-3. Extract Metadata for the Docker Image:
+▫️ 3. Extract Metadata for the Docker Image:
 
 Uses the docker/metadata-action to generate metadata such as tags and labels for the Docker image.
 
 The metadata (e.g., tags and labels) is based on repository information and is stored in outputs (steps.meta.outputs.tags and steps.meta.outputs.labels).
 
-4. Build and Push Docker Image:
+▫️ 4. Build and Push Docker Image:
 
 Uses the docker/build-push-action to:
 
