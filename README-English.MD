@@ -244,6 +244,55 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 ```
+This GitHub Actions workflow is designed to automate the process of building and publishing a Docker image to Docker Hub when changes are pushed to the main branch.
+
+Workflow Name:
+
+Publish Docker image
+
+Trigger:
+
+Runs when there is a push to the main branch.
+
+Job:
+
+push_to_registry
+
+Purpose: Builds a Docker image from the repository and pushes it to Docker Hub.
+
+Runs-on: The job runs on the latest version of Ubuntu (ubuntu-latest).
+
+Steps:
+
+1. Check Out the Repository:
+
+Uses the actions/checkout action to clone the repository code into the runner environment.
+
+2. Log In to Docker Hub:
+
+Uses the docker/login-action to authenticate with Docker Hub.
+
+Credentials are securely retrieved using GitHub secrets (DOCKER_USERNAME and DOCKER_PASSWORD).
+
+3. Extract Metadata for the Docker Image:
+
+Uses the docker/metadata-action to generate metadata such as tags and labels for the Docker image.
+
+The metadata (e.g., tags and labels) is based on repository information and is stored in outputs (steps.meta.outputs.tags and steps.meta.outputs.labels).
+
+4. Build and Push Docker Image:
+
+Uses the docker/build-push-action to:
+
+Build the Docker image using the Dockerfile in the repository.
+
+Push the image to the specified Docker Hub repository (gonzaloescudero/my-docker-hub-repository).
+
+It uses the metadata (tags and labels) from the previous step to annotate the image.
+
+Purpose:
+
+This workflow ensures that every change pushed to the main branch is automatically reflected as a new Docker image version in Docker Hub, complete with relevant tags and labels. It simplifies and streamlines the CI/CD process for Docker-based applications.
 
 ## 5️⃣🟦 Project Status
 
