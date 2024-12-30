@@ -1,8 +1,8 @@
-Hashtags #️⃣ : #devops #docker #linux #automation #ci #github-actions #dokku #java-springboot #nginx
+##### Hashtags #️⃣ : #devops #docker #linux #automation #ci #github-actions #dokku #java-springboot #nginx
 
-### English-Version README.Para leer la Versión en Español,ve a README.md
+##### English-Version README.Para leer la Versión en Español,ve a README.md
 
-# ✅️ DockerGHA2
+## ✅️ DockerGHA2
 
 
 ![Build Status](https://github.com/Pascua2020/DockerGHA/actions/workflows/main.yml/badge.svg)
