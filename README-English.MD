@@ -25,33 +25,33 @@ Hashtags #️⃣ : #devops #docker #linux #automation #ci #github-actions #dokku
 
 ## 1️⃣🟥 Features
 
-#### *⚡️ Docker:*
+#### *⚡️ Docker :*
 
 ![Docker Logo](https://dwglogo.com/wp-content/uploads/2017/09/Docker_container_engine_logo.png)
 
 Packages the Spring Boot application in a container to ensure it runs consistently in any environment.
 
-#### *⚡️ GitHub Actions:*
+#### *⚡️ GitHub Actions :*
 
 ![GHA Logo](https://miro.medium.com/v2/resize:fit:1075/0*w5Fsp29pbWIUpW7Q.png)
 
 Automates the build, test, and deployment processes for the application with each change in the repository.
 
-#### *⚡️ Java Spring Boot:*
+#### *⚡️ Java Spring Boot :*
 
 ![Java SB Logo](https://miro.medium.com/v2/resize:fit:720/format:webp/1*MvUFlFTbiU40ae1SK69-Jg.png)
 
 Backend framework for web application development.
 
-#### *⚡️ Dokku:*
+#### *⚡️ Dokku :*
 
 ![Dokku Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6mNvZ4G3tFQpY1qcVDQdWGSVUW5ljKhyUxfgTeFAZUX5r48Xm8M6mMf55h3IkCw1DC3ERygHIWgsvguq1cYntoluBXdW4-7W_Uhw8JHrvQIeW5T1lIGOuk7WTvkP5O-M_XR4J-6W9Gg-vfhG6B-Q6w75EaJ_eHlGvjxcbEGB3_xckw6OnTwxuBWsL-TRQ/s2800/A%20Deep%20Dive%20with%20Dokku.webp)
 
 A Heroku-like deployment platform that uses Docker containers to manage applications easily.
 
-### Differences between DockerGHA 1, 2, 3, and 4:
+### Differences between DockerGHA 1, 2, 3, and 4 :
 
-#### ⚠️ *All Dockerfiles are identical:*
+#### ⚠️ *All Dockerfiles are identical :*
 
 - Use the base image busybox:latest.
 
@@ -60,9 +60,9 @@ A Heroku-like deployment platform that uses Docker containers to manage applicat
 - Configure the run.sh script as the container's entry point.
 
 
-#### ⚠️ *Main.yml - General differences:*
+#### ⚠️ *Main.yml - General differences :*
 
-*ℹ️ 1. Repositories:*
+*ℹ️ 1. Repositories :*
 
 
 - 1 and 2 push images only to Docker Hub.
@@ -72,12 +72,12 @@ A Heroku-like deployment platform that uses Docker containers to manage applicat
 - 4 pushes to both registries (Docker Hub and GHCR).
 
 
-*ℹ️ 2. Automation:*
+*ℹ️ 2. Automation :*
 
 - Repositories 2, 3, and 4 use docker/metadata-action for automatic tagging, while 1 does not.
 
 
-*ℹ️ 3. Image names:*
+*ℹ️ 3. Image names :*
 
 - Repository 1 has a fixed name: clockbox:latest.
 
@@ -104,23 +104,23 @@ DockerGHA2/
 ├── pom.xml                       # Maven configuration file (if using Maven)
 └── .gitignore                    # Files and directories to ignore in Git
 ```
-#### *💾 Dockerfile:*
+#### *💾 Dockerfile :*
 
 Defines how to build the Docker image for the Spring Boot project.
 
-#### *💾 main.yml:*
+#### *💾 main.yml :*
 
 GitHub Actions configuration file to automate building, testing, and deployment.
 
-#### *💾 src/:*
+#### *💾 src/ :*
 
 Contains the source code for the Spring Boot application.
 
-#### *💾 pom.xml:*
+#### *💾 pom.xml :*
 
 Maven configuration file for dependencies and project build.
 
-#### *💾 dokku-deploy.sh:*
+#### *💾 dokku-deploy.sh :*
 
 Script that automates the deployment process of the application to a remote server using Dokku.
 
@@ -138,25 +138,25 @@ Automate deployment processes via Dokku.
 
 ## 4️⃣🟨 Technologies Used
 
-▫️ *Backend:*
+▫️ *Backend :*
 
-💡Java Spring Boot: Provides a framework for developing microservices and REST APIs.
+💡Java Spring Boot : Provides a framework for developing microservices and REST APIs.
 
-▫️ *Containers:*
+▫️ *Containers :*
 
-💡Docker: Used to create, deploy, and run the application in containers, ensuring consistency across environments.
+💡Docker : Used to create, deploy, and run the application in containers, ensuring consistency across environments.
 
-▫️ *Automation:*
+▫️ *Automation :*
 
-💡GitHub Actions: Configured to automate the build, test, and deployment processes.
+💡GitHub Actions : Configured to automate the build, test, and deployment processes.
 
-▫️ *Deployment:*
+▫️ *Deployment :*
 
-💡Dokku: Used to manage and deploy the application to a virtualized environment, simplifying application hosting.
+💡Dokku : Used to manage and deploy the application to a virtualized environment, simplifying application hosting.
 
-▫️ *Others:*
+▫️ *Others :*
 
-💡Nginx: Used as a reverse proxy for the application to enhance performance and security.
+💡Nginx : Used as a reverse proxy for the application to enhance performance and security.
 
 ## ⬜️ Code
 
@@ -177,11 +177,11 @@ ENTRYPOINT /app/run.sh
 
 This Dockerfile creates a lightweight container that continuously outputs the current time in a specific format.
 
-*🔷️ 1. Base Image:*
+*🔷️ 1. Base Image :*
 
 Uses the latest version of the busybox image, a minimal Linux distribution with essential utilities.
 
-*🔷️ 2. Create and Copy a Shell Script:*
+*🔷️ 2. Create and Copy a Shell Script :*
 
 Creates a shell script (run.sh) on the fly using a here-document (<<EOF ... EOF) and copies it to the /app/ directory inside the container.
 
@@ -195,15 +195,15 @@ Overwrites the same line in the terminal (echo -ne "..." with \\r to stay on the
 
 Waits for 1 second before repeating (sleep 1).
 
-*🔷️ 3. Set File Permissions:*
+*🔷️ 3. Set File Permissions :*
 
 Sets executable permissions (chmod=755) for the run.sh script.
 
-*🔷️ 4. Entry Point:*
+*🔷️ 4. Entry Point :*
 
 Defines /app/run.sh as the entry point, making it the default command executed when the container starts.
 
-### *🔑 Purpose:*
+### *🔑 Purpose :*
 
 When the container runs, it continuously prints the current time in real-time, updating it every second on the same terminal line.
 
@@ -246,15 +246,15 @@ jobs:
 ```
 This GitHub Actions workflow is designed to automate the process of building and publishing a Docker image to Docker Hub when changes are pushed to the main branch.
 
-*🔷️ Workflow Name:*
+*🔷️ Workflow Name :*
 
 Publish Docker image
 
-*🔷️ Trigger:*
+*🔷️ Trigger :*
 
 Runs when there is a push to the main branch.
 
-*🔷️ Job:*
+*🔷️ Job :*
 
 push_to_registry
 
@@ -262,25 +262,25 @@ Purpose: Builds a Docker image from the repository and pushes it to Docker Hub.
 
 Runs-on: The job runs on the latest version of Ubuntu (ubuntu-latest).
 
-*🔷️ Steps:*
+*🔷️ Steps :*
 
-▫️ 1. Check Out the Repository:
+▫️ 1. Check Out the Repository :
 
 Uses the actions/checkout action to clone the repository code into the runner environment.
 
-▫️ 2. Log In to Docker Hub:
+▫️ 2. Log In to Docker Hub :
 
 Uses the docker/login-action to authenticate with Docker Hub.
 
 Credentials are securely retrieved using GitHub secrets (DOCKER_USERNAME and DOCKER_PASSWORD).
 
-▫️ 3. Extract Metadata for the Docker Image:
+▫️ 3. Extract Metadata for the Docker Image :
 
 Uses the docker/metadata-action to generate metadata such as tags and labels for the Docker image.
 
 The metadata (e.g., tags and labels) is based on repository information and is stored in outputs (steps.meta.outputs.tags and steps.meta.outputs.labels).
 
-▫️ 4. Build and Push Docker Image:
+▫️ 4. Build and Push Docker Image :
 
 Uses the docker/build-push-action to:
 
@@ -290,7 +290,7 @@ Push the image to the specified Docker Hub repository (gonzaloescudero/my-docker
 
 It uses the metadata (tags and labels) from the previous step to annotate the image.
 
-### *🔑 Purpose:*
+### *🔑 Purpose :*
 
 This workflow ensures that every change pushed to the main branch is automatically reflected as a new Docker image version in Docker Hub, complete with relevant tags and labels. It simplifies and streamlines the CI/CD process for Docker-based applications.
 
@@ -316,15 +316,15 @@ This project does not have an assigned license. Without an explicit license, all
 - *UTN*
 
 
-## 9️⃣📒 Official Documentation:
+## 9️⃣📒 Official Documentation :
 
-*- Docker:*
+*- Docker :*
 https://docs.docker.com
 
-*- GitHub Actions:*
+*- GitHub Actions :*
 https://docs.github.com/en/actions
 
-*- Dokku:*
+*- Dokku :*
 https://dokku.com/docs/getting-started/installation/
 
 ## 🔟🔄 Notes
