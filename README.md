@@ -99,23 +99,23 @@ DockerGHA2/
 ├── pom.xml                       # Archivo de configuración de Maven (si usas Maven)
 └── .gitignore                    # Archivos y directorios que Git debe ignorar
 ```
-💾 *Dockerfile:* 
+#### 💾 *Dockerfile:* 
 
 Archivo que define cómo crear la imagen Docker para el proyecto Spring Boot.
 
-💾 *main.yml:* 
+#### 💾 *main.yml:* 
 
 Archivo de configuración para GitHub Actions que automatiza la construcción, pruebas y despliegue.
 
-💾 *src/:* 
+#### 💾 *src/:* 
 
 Contiene el código fuente de la aplicación Spring Boot.
 
-💾 *pom.xml:* 
+#### 💾 *pom.xml:* 
 
 Archivo de configuración de Maven para las dependencias y construcción del proyecto.
 
-💾 *dokku-deploy.sh:* 
+#### 💾 *dokku-deploy.sh:* 
 
 Script que automatiza el proceso de despliegue de la aplicación en un servidor remoto usando Dokku.
 
