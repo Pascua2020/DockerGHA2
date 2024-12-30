@@ -26,25 +26,25 @@
 
 ## 1️⃣🟥 **Características**
 
-⚡️ *Docker:* 
+#### ⚡️ *Docker:* 
 
 ![Docker Logo](https://dwglogo.com/wp-content/uploads/2017/09/Docker_container_engine_logo.png)
 
 Empaqueta la aplicación Spring Boot en un contenedor para garantizar que se ejecute de la misma manera en cualquier entorno.
 
-⚡️ *GitHub Actions:* 
+#### ⚡️ *GitHub Actions:* 
 
 ![GHA Logo](https://miro.medium.com/v2/resize:fit:1075/0*w5Fsp29pbWIUpW7Q.png)
 
 Automatiza el proceso de construcción, prueba y despliegue de la aplicación con cada cambio en el repositorio.
 
-⚡️ *Java Spring Boot:* 
+#### ⚡️ *Java Spring Boot:* 
 
 ![Java SB Logo](https://miro.medium.com/v2/resize:fit:720/format:webp/1*MvUFlFTbiU40ae1SK69-Jg.png)
 
 Framework backend para el desarrollo de la aplicación web.
 
-⚡️ *Dokku:* 
+#### ⚡️ *Dokku:* 
 
 ![Dokku Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6mNvZ4G3tFQpY1qcVDQdWGSVUW5ljKhyUxfgTeFAZUX5r48Xm8M6mMf55h3IkCw1DC3ERygHIWgsvguq1cYntoluBXdW4-7W_Uhw8JHrvQIeW5T1lIGOuk7WTvkP5O-M_XR4J-6W9Gg-vfhG6B-Q6w75EaJ_eHlGvjxcbEGB3_xckw6OnTwxuBWsL-TRQ/s2800/A%20Deep%20Dive%20with%20Dokku.webp)
 
