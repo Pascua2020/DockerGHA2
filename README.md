@@ -158,11 +158,11 @@ ENTRYPOINT /app/run.sh
 
 Este Dockerfile crea una imagen Docker que ejecuta un script en un bucle infinito para mostrar la hora actual.
 
-📀 *1. Base :* 
+##### 📀 *1. Base :* 
 
 Usa la imagen mínima busybox:latest.
 
-📀 *2. Script :* 
+##### 📀 *2. Script :* 
 
 Crea un archivo run.sh dentro del contenedor que:
 
@@ -170,11 +170,11 @@ Muestra la hora actual (HH:MM:SS) en tiempo real.
 
 Actualiza la hora en la misma línea cada segundo.
 
-📀 *3. Permisos :* 
+##### 📀 *3. Permisos :* 
 
 El script tiene permisos de ejecución (chmod=755).
 
-📀 *4. Ejecución :* 
+##### 📀 *4. Ejecución :* 
 
 Configura el script como punto de entrada (ENTRYPOINT).
 
@@ -221,15 +221,15 @@ jobs:
 ```
 Este archivo main.yml configura un flujo de trabajo en GitHub Actions para construir y publicar una imagen Docker en Docker Hub cuando se realiza un push a la rama main.
 
-📀 *1. Trigger (Disparador) :*
+##### 📀 *1. Trigger (Disparador) :*
 
 Se ejecuta automáticamente cuando hay un push en la rama main.
 
-📀 *2. Job (push_to_registry) :*
+##### 📀 *2. Job (push_to_registry) :*
 
 Ejecuta el proceso en un entorno con Ubuntu (ubuntu-latest).
 
-📀 *3. Pasos del Job :*
+##### 📀 *3. Pasos del Job :*
 
 ✨️ *Check out the repo :*
 
