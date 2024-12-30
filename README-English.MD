@@ -175,6 +175,38 @@ EOF
 ENTRYPOINT /app/run.sh
 ```
 
+This Dockerfile creates a lightweight container that continuously outputs the current time in a specific format.
+
+1. Base Image:
+
+Uses the latest version of the busybox image, a minimal Linux distribution with essential utilities.
+
+2. Create and Copy a Shell Script:
+
+Creates a shell script (run.sh) on the fly using a here-document (<<EOF ... EOF) and copies it to the /app/ directory inside the container.
+
+The script:
+
+Enters an infinite loop (while true) that:
+
+Prints the current time in HH:MM:SS format.
+
+Overwrites the same line in the terminal (echo -ne "..." with \\r to stay on the same line).
+
+Waits for 1 second before repeating (sleep 1).
+
+3. Set File Permissions:
+
+Sets executable permissions (chmod=755) for the run.sh script.
+
+4. Entry Point:
+
+Defines /app/run.sh as the entry point, making it the default command executed when the container starts.
+
+Purpose:
+
+When the container runs, it continuously prints the current time in real-time, updating it every second on the same terminal line.
+
 💡 *Main.yml*
 ```
 name: Publish Docker image
