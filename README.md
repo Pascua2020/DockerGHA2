@@ -26,25 +26,25 @@
 
 ## 1️⃣🟥 **Características**
 
-#### ⚡️ *Docker:* 
+#### ⚡️ *Docker :* 
 
 ![Docker Logo](https://dwglogo.com/wp-content/uploads/2017/09/Docker_container_engine_logo.png)
 
 Empaqueta la aplicación Spring Boot en un contenedor para garantizar que se ejecute de la misma manera en cualquier entorno.
 
-#### ⚡️ *GitHub Actions:* 
+#### ⚡️ *GitHub Actions :* 
 
 ![GHA Logo](https://miro.medium.com/v2/resize:fit:1075/0*w5Fsp29pbWIUpW7Q.png)
 
 Automatiza el proceso de construcción, prueba y despliegue de la aplicación con cada cambio en el repositorio.
 
-#### ⚡️ *Java Spring Boot:* 
+#### ⚡️ *Java Spring Boot :* 
 
 ![Java SB Logo](https://miro.medium.com/v2/resize:fit:720/format:webp/1*MvUFlFTbiU40ae1SK69-Jg.png)
 
 Framework backend para el desarrollo de la aplicación web.
 
-#### ⚡️ *Dokku:* 
+#### ⚡️ *Dokku :* 
 
 ![Dokku Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6mNvZ4G3tFQpY1qcVDQdWGSVUW5ljKhyUxfgTeFAZUX5r48Xm8M6mMf55h3IkCw1DC3ERygHIWgsvguq1cYntoluBXdW4-7W_Uhw8JHrvQIeW5T1lIGOuk7WTvkP5O-M_XR4J-6W9Gg-vfhG6B-Q6w75EaJ_eHlGvjxcbEGB3_xckw6OnTwxuBWsL-TRQ/s2800/A%20Deep%20Dive%20with%20Dokku.webp)
 
@@ -52,7 +52,7 @@ Plataforma de despliegue similar a Heroku que usa contenedores Docker para gesti
 
 **Diferencias entre DockerGHA 2 con 1 , 3 y 4 :**
 
-#### ⚙️ *Todos los Dockerfiles son idénticos:*
+#### ⚙️ *Todos los Dockerfiles son idénticos :*
 
 - Usan la imagen base busybox:latest.
 
@@ -60,9 +60,9 @@ Plataforma de despliegue similar a Heroku que usa contenedores Docker para gesti
 
 - Configuran el script run.sh como el punto de entrada del contenedor.
 
-#### ⚙️ *Main.yml - Diferencias generales*:
+#### ⚙️ *Main.yml - Diferencias generales :*
 
-*🔷️ 1. Repositorios:*
+*🔷️ 1. Repositorios :*
 
 - 1 y 2 suben imágenes solo a Docker Hub.
 
@@ -70,11 +70,11 @@ Plataforma de despliegue similar a Heroku que usa contenedores Docker para gesti
 
 - 4 sube a ambos registries (Docker Hub y GHCR).
 
-*🔷️ 2. Automatización:*
+*🔷️ 2. Automatización :*
 
 - Repositorios 2, 3 y 4 usan docker/metadata-action para etiquetas automáticas, mientras que el 1 no.
 
-*🔷️ 3. Nombres de imagen:*
+*🔷️ 3. Nombres de imagen :*
 
 - Repositorio 1 tiene un nombre fijo: clockbox:latest.
 
@@ -99,23 +99,23 @@ DockerGHA2/
 ├── pom.xml                       # Archivo de configuración de Maven (si usas Maven)
 └── .gitignore                    # Archivos y directorios que Git debe ignorar
 ```
-#### 💾 *Dockerfile:* 
+#### 💾 *Dockerfile :* 
 
 Archivo que define cómo crear la imagen Docker para el proyecto Spring Boot.
 
-#### 💾 *main.yml:* 
+#### 💾 *main.yml :* 
 
 Archivo de configuración para GitHub Actions que automatiza la construcción, pruebas y despliegue.
 
-#### 💾 *src/:* 
+#### 💾 *src/ :* 
 
 Contiene el código fuente de la aplicación Spring Boot.
 
-#### 💾 *pom.xml:* 
+#### 💾 *pom.xml :* 
 
 Archivo de configuración de Maven para las dependencias y construcción del proyecto.
 
-#### 💾 *dokku-deploy.sh:* 
+#### 💾 *dokku-deploy.sh :* 
 
 Script que automatiza el proceso de despliegue de la aplicación en un servidor remoto usando Dokku.
 
@@ -123,19 +123,19 @@ Script que automatiza el proceso de despliegue de la aplicación en un servidor 
 
  🖱 *Requisitos*
 
-ℹ️ *Docker:* 
+ℹ️ *Docker :* 
 
 Necesario para construir y ejecutar la aplicación en contenedores.
 
-ℹ️ *GitHub Actions:* 
+ℹ️ *GitHub Actions :* 
 
 Se utiliza para la integración continua y automatización de procesos de despliegue.
 
-ℹ️ *Dokku:* 
+ℹ️ *Dokku :* 
 
 Necesitas un servidor remoto con Dokku instalado para gestionar el despliegue.
 
-ℹ️ *Java:* 
+ℹ️ *Java :* 
 
 Debes tener instalado Java y Maven para desarrollar la aplicación de backend con Spring Boot.
 
