@@ -51,7 +51,7 @@ A Heroku-like deployment platform that uses Docker containers to manage applicat
 
 ### Differences between DockerGHA 1, 2, 3, and 4:
 
-⚠️ *All Dockerfiles are identical:*
+#### ⚠️ *All Dockerfiles are identical:*
 
 - Use the base image busybox:latest.
 
@@ -60,7 +60,7 @@ A Heroku-like deployment platform that uses Docker containers to manage applicat
 - Configure the run.sh script as the container's entry point.
 
 
-⚠️ *Main.yml - General differences:*
+#### ⚠️ *Main.yml - General differences:*
 
 *ℹ️ 1. Repositories:*
 
